@@ -2,16 +2,19 @@
 Panganiban, Bangki, Niñeza
 
 Summary of Database System Architectures
+
 **1. Single-Tier Architecture**
 Description: The database and application reside on the same system.
 Example: SQLite with a Python script for a local note-taking app.
 Pros: Simple setup, fast access, no network dependency.
 Cons: Limited scalability, not ideal for multi-user applications.
+
 **2. Two-Tier Architecture**
 Description: A client-server model where the database is on a separate server, and the client communicates directly with it.
 Example: MySQL database with a Python client performing CRUD operations.
 Pros: Better scalability, multiple clients can connect.
 Cons: Increased complexity, potential performance bottlenecks.
+
 **3. Three-Tier Architecture**
 Description: Introduces an intermediate application server between the client and database, handling business logic.
 Example: A Flask-based web app with MySQL and a web interface.
@@ -21,6 +24,7 @@ Each architecture is suited for different use cases, balancing complexity, perfo
 
 
 Instructions for Running or Testing the Code
+
 **1. Single-Tier Architecture (SQLite + Python)**
 Prerequisites:
 
